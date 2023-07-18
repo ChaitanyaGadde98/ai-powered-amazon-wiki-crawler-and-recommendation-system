@@ -173,14 +173,3 @@ def get_similarity_scores(amazon, wiki):
         item['score'] = int(cosine_similarity(wiki_text_vector, amazon_text_vector)[0][0] * 100)
     return amazon
 
-#
-# product = input("Enter product name: ")
-# amazon_results = amazon_scraper(product)
-# wikipedia_result = wikipedia_scraper(product)
-#
-# print("Amazon results:")
-# for result in amazon_results:
-#     print(result)
-#
-# print("Wikipedia result:")
-# print(wikipedia_result)
