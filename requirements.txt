@@ -1,0 +1,9 @@
+beautifulsoup4
+selenium
+webdriver_manager
+transformers
+torch
+flask
+nltk
+sentencepiece
+scikit-learn
