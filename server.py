@@ -21,7 +21,7 @@ def get_data():
     response = {"wiki": wikipedia_result,
                 "amazon": amazon_results}
 
-    print(response)
+    # print(response)
     return jsonify(response)
 
 

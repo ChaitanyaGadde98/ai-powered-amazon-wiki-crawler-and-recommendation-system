@@ -7,3 +7,7 @@ flask
 nltk
 sentencepiece
 scikit-learn
+gensim
+datasets
+apache-beam
+matplotlib
